@@ -5,15 +5,6 @@
 	<meta name="author" content="{{ site.author.name }}">
 	<link href='{{ ASSET_PATH }}atheme/css/bootstrap.css' rel="stylesheet" media="all">
 	<link rel="stylesheet" href="{{ASSET_PATH}}atheme/css/bootstrap-responsive.css">
-  <style type="text/css">
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left:40px;
-        padding-right: 40px;
-      }
-    </style>
-    
 </head>
 
 <body>
@@ -25,10 +16,9 @@
 
 	<header id="header">
 		<div id="branding">
-		<h1 class="title">
-		<a class="brand" href="/">{{ site.title }}</a>
-		</h1>
-		<p id="description">It's a me!</p>
+			<h1 class="title">
+			<a class="brand" href="/">{{ site.title }}</a>
+			</h1>
 		</div><!-- #branding -->
 	</header>
 
@@ -38,11 +28,9 @@
 			<div class="span3">
 				<div class="sidebar">
 					<ul class="menu">
-					  <li><a href="#/archive">Archive</a></li>
-					  <li><a href="#/contact">Contact</a></li>
-					  <li><a href="#/interesting">Interesting</a></li>
-					  <li><a href="#/about">About</a></li>
-					  <li><a href="#/feeds">Feeds</a></li>
+						{% assign pages_list = site.pages %}
+						{% assign group = 'navigation' %}
+						{% include JB/pages_list %}
 					</ul>
 				</div><!--/.sidebar -->
 			</div>
