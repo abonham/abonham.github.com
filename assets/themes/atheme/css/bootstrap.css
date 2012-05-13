@@ -154,19 +154,19 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 18px;
-  color: #333333;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #2E3034;
 }
 
 a {
-  color: #0088cc;
+  color: #585B61;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
+  color: #000531;
   text-decoration: underline;
 }
 
@@ -4958,3 +4958,64 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+
+.content{
+	padding-bottom: 100px;
+}
+
+.content h1 {
+	font-size: 16px;
+	
+}
+
+.content a {
+	color: #585B61;
+	text-decoration: none;
+	border-bottom:1px #4F4B44 solid;
+	
+}
+
+.content a:hover {
+	
+	border-bottom:2px #EBB830 solid;
+} 
+
+.menu li {
+	list-style: none;
+		font-size: 16px;
+	}
+
+.menu a {
+	color: #585B61;
+	}
+
+.sidebar {
+	text-align: right;
+
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-right: 40px;
+	border-right: 2px #585B61 solid;
+	}
+	
+.main-content {
+	margin-top: 40px;
+	}
+	
+#header {
+	margin-left: 240px;
+	}
+
+footer {
+	text-align: center;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
