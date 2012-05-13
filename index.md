@@ -1,5 +1,5 @@
 ---
-layout: frontpage
+layout: page
 title: Aaron Bonham
 tagline: Do you know how hard it was to get that bear to the cabin?
 ---
