@@ -318,15 +318,16 @@ em {
 }
 
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 18px;
-  border-left: 5px solid #eeeeee;
+  padding: 0 0 0 5px ;
+  margin: 0 20px 0 20px;
+  border-left: 2px solid #555555;
 }
 
 blockquote p {
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  font-family: 'Raleway';
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 22.5px;
 }
 
@@ -402,6 +403,7 @@ pre code {
 .pagination {
   height: 36px;
   margin: 18px 0;
+  padding-top: 60px;
 }
 
 .pagination ul {
@@ -493,6 +495,10 @@ pre code {
 	background-color: #EBB830;
 } 
 
+.content p a {
+	border: none;
+}
+
 .menu li {
 	list-style: none;
 		font-size: 16px;
@@ -518,6 +524,10 @@ pre code {
 	border-right: 1px #EBB830 solid;
 	}
 	
+.sidebar li {
+	line-height: 1.5em;
+	}
+
 .main-content {
 	margin-top: 40px;
 	}
@@ -541,6 +551,7 @@ hr {
 	
 header a {
 	color: white;
+	font-family: 'Raleway';
 	}
 
 header a:hover {

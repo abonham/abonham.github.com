@@ -1,7 +1,7 @@
 <div class="content">
 
 	<div class="unit-head">
-					<h1>{{ page.title }}</h1>
+					<h1><a href="{{ page.link }}"> {{ page.title }}</a></h1>
 	</div><!-- unit-head -->
 
 	<div class="entry-content">
@@ -29,7 +29,7 @@
 							<li class="prev"><a class="internal" rel="prev"  href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
 							{% endif %}
 							{% if page.previous and page.next %}
-							<li class="pipe"> | </li>
+							<li class="pipe"><a class=internal" href="/archive.html">Archive</a>   </li>
 							{% endif %}
 							{% if page.next %}
 							<li class="next"><a class="internal" rel="next"  href="{{ page.next.url }}" title="View {{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
