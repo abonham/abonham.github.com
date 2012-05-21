@@ -5,6 +5,7 @@
 	<meta name="author" content="{{ site.author.name }}">
 	<link href='{{ ASSET_PATH }}atheme/css/bootstrap.css' rel="stylesheet" media="all">
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
 	
 </head>
 
@@ -12,8 +13,9 @@
 
 
     
-<div class="containter">
 
+
+<div class="container">
 
 	<header id="header">
 		<div id="branding">
@@ -23,26 +25,15 @@
 		</div><!-- #branding -->
 	</header>
 
-	
-	<div class="main-content">
-		<div class="row">
-			<div class="span3">
-				<div class="sidebar">
-					<ul class="menu">
-						{% assign pages_list = site.pages %}
-						{% assign group = 'navigation' %}
-						{% include JB/pages_list %}
-					</ul>
-				</div><!--/.sidebar -->
-			</div>
-		
-			<div class="span6">
-		  {{content}}
-		</div>
-		</div>
-    </div>
 
+	
+		<div class="content">
+			
+				  {{content}}
+			
+		</div>
 </div>
+
     
 	<footer class="the-footer">
 		<div class="unit-foot">
