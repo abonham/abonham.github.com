@@ -105,7 +105,7 @@ a:hover {
 
 p {
   margin: 0px 0px 15px 0px;
-  font: 300 16px/24px "Merriweather", serif;
+  font: 300 14pt/21pt "Merriweather", serif;
 
 }
 
@@ -118,7 +118,6 @@ h5,
 h6 {
   margin: 0;
   font-family: inherit;
-  font-weight: bold;
   color: inherit;
 }
 
@@ -192,7 +191,7 @@ ol {
 }
 
 li {
-  line-height: 18px;
+  line-height: 26px;
 }
 
 ul.unstyled,
@@ -251,7 +250,7 @@ blockquote p {
   margin-bottom: 15px;
   font-family: 'Raleway';
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 22.5px;
 }
 
@@ -376,7 +375,7 @@ pre code {
 
 
 .post-content {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	}
 
 .content{
@@ -388,8 +387,9 @@ pre code {
 }
 
 .content h1 {
-	font-size: 20px;
-	font-family: 'Raleway'
+	font-size: 30px;
+	font-family: 'Raleway';
+	font-weight: 100;
 }
 
 .content a {
@@ -415,8 +415,23 @@ pre code {
 	margin-bottom: 40px;
 	}
 
-footer {
+footer p {
 	text-align: center;
+	font-size: 11pt;
+}
+
+.footer-links {
+	margin: auto;
+	width: 60px;
+	height: 60px;
+}
+
+.footer-links a {
+	border:none;
+}
+
+.footer-links a:hover {
+	background-color: #2E3034;
 }
 
 hr {
@@ -431,6 +446,9 @@ hr {
 header a {
 	color: white;
 	font-family: 'Raleway';
+	font-weight: 100;
+	border: none;
+	font-size: 40px;
 	}
 
 header a:hover {
@@ -452,8 +470,8 @@ header a:hover {
 	}
 
 .description p {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 	
 a.infinitysymbol, a.infinitysymbol:visited
@@ -473,4 +491,8 @@ a.infinitysymbol, a.infinitysymbol:visited, a.infinitysymbol:hover, a.infinitysy
 {
 	margin-left: 0.1em;
 	font-size: 0.8em;
+}
+
+.entry-content {
+	margin-top: 20px;
 }
