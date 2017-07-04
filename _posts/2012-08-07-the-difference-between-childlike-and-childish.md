@@ -4,7 +4,7 @@ title: "The Difference Between Childlike and Childish"
 ---
 I've recently been pondering personal traits I'd like to nurture and grow along with those being otherwise undesirable I'd rather pare away as I carry forward with my life. As my thoughts meandered along with my footsteps this afternoon, I remember a friend once made comment on my childlike sense of wonder. A childlike sense of wonder I seem to have misplaced in the last couple of years.
 
-This got me thinking of the stigma attached by society at large to behaving as a child after a certain point in ones life. Usually far too early and often right after we discover that half the people we know are just a little different to us. And attractive in a way we can't describe, which our parents are oddly hesitant to discuss.
+This got me thinking of the stigma attached by society at large to behaving as a child after a certain point in ones life. Usually far too early and often right after we discover that the opposite sex is just a little different to us. And attractive in a way we can't describe; which our parents are oddly hesitant to discuss.
 
 The sentiment against usually runs thusly:
 
